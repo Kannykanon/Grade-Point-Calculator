@@ -1,0 +1,33 @@
+body{background:#000;color: #fff;}
+.wrapper{max-width:90%; margin: 0 auto;}
+h1{text-align: center;margin: 30px;
+animation-name: slidein;
+animation-duration: 5s;
+animation-iteration-count: 1;
+animation-direction: alternate;}
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+table{margin-top:30px; margin-left: auto; margin-right: auto;}
+#center{margin-left: 150px; margin-right: auto;}
+.display-none{display: none;}
+tbody td{text-transform: uppercase;}
+#homeicon{
+   margin-top: 50px;
+   margin-left: 250px;
+}
+p1{
+    background:black;
+    color: white;
+    font-variant: small-caps;
+    font-size: larger;
+}
+
